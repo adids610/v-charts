@@ -1,9 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VEcharts from "../src/index";
 import "echarts";
 
+import VEcharts from "../src/index";
+
 Vue.use(VEcharts);
+
+
 Vue.config.productionTip = false
 
 new Vue({
